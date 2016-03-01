@@ -1,0 +1,3 @@
+[submodule "xspf"]
+	path = xspf
+	url = https://github.com/DxCx/xspf.git
