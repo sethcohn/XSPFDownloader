@@ -125,7 +125,7 @@ class XSPFDownloader(object):
         self.__download_image()
 
         for i, t in enumerate(self.__x.track):
-            fname = u"%02d-%s" % (i+1, t.title)
+            fname = u"%s_-_%s" % (t.creator, t.title)
             d = self.__to_downloader(t, "location", fname)
             if d is not None:
                 # Append to targets
